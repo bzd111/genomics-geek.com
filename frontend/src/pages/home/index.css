@@ -1,0 +1,24 @@
+.Home-header {
+  padding-top: 95px;
+}
+
+.Home-header a {
+  color: #222;
+}
+
+.Home-header a:hover {
+  color: #F65314;
+}
+
+.Home-header .ui.button {
+  margin-top: 35px;
+}
+
+.Home-header .ui.header {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+}
+
+.Home-header .ui.huge.header {
+  font-size: 75px;
+}
