@@ -8,7 +8,7 @@ import axios from 'axios'
 class App extends Component {
   onClick = (e) => {
     console.log("Sending a GET API Call !!!");
-    axios.get('http://localhost:8000/api')
+    axios.get('/api/')
     .then(res => {
       console.log(res);
     }).then(response => {
