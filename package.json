@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "heroku-prebuild": "cd frontend/ && yarn install && yarn build",
+    "heroku-prebuild": "export NODE_PATH=src/ && cd frontend/ && yarn install && yarn build",
     "heroku-postbuild": "cd ../"
   },
   "engines": {
