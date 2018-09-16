@@ -2,12 +2,12 @@ import React from 'react'
 
 import { Redirect, Route, Switch } from 'react-router-dom'
 
-import Home from 'pages/home'
 import About from 'pages/about'
-import Publications from 'pages/publications'
-import Software from 'pages/software'
 import Blog from 'pages/blog'
 import Contact from 'pages/contact'
+import Home from 'pages/home'
+import Publications from 'pages/publications'
+import Software from 'pages/software'
 
 
 const Routes = () => (
