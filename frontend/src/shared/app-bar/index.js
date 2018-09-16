@@ -12,7 +12,7 @@ export const AppBar = () => (
       className="AppBar-item animated rollIn"
       name="home"
       as={NavLink}
-      to="/home/"
+      to="/app/home/"
     >
       <img
         alt=""
@@ -24,35 +24,35 @@ export const AppBar = () => (
       name="about"
       icon="hand peace outline"
       as={NavLink}
-      to="/about/"
+      to="/app/about/"
     />
     <Menu.Item
       className="AppBar-item"
       name="blog"
       icon="comments outline"
       as={NavLink}
-      to="/blog/"
+      to="/app/blog/"
     />
     <Menu.Item
       className="AppBar-item"
       name="publications"
       icon="newspaper outline"
       as={NavLink}
-      to="/publications/"
+      to="/app/publications/"
     />
     <Menu.Item
       className="AppBar-item"
       name="software"
       icon="code branch"
       as={NavLink}
-      to="/software/"
+      to="/app/software/"
     />
     <Menu.Item
       className="AppBar-item"
       name="contact"
       icon="mail"
       as={NavLink}
-      to="/contact/"
+      to="/app/contact/"
     />
     <Menu.Menu position="right">
       <Menu.Item name="github">
