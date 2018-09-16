@@ -1,0 +1,18 @@
+.AppBar {
+  background: #fff!important;
+}
+
+.AppBar-link {
+  color: #222;
+}
+
+.ui.secondary.pointing.menu .AppBar-item {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.AppBar-link:hover,
+.ui.secondary.pointing.menu .active.AppBar-item.item,
+.ui.secondary.pointing.menu .active.AppBar-item.item:hover,
+.ui.secondary.pointing.menu a.AppBar-item.item:hover {
+  color: #F65314;
+}
