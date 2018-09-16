@@ -71,6 +71,7 @@ THIRD_PARTY_APPS = [
     'allauth.socialaccount',
     'rest_framework',
     'corsheaders',
+    'graphene_django',
 ]
 LOCAL_APPS = [
     'genomics_geek.users.apps.UsersAppConfig',
@@ -273,3 +274,7 @@ STATICFILES_FINDERS += ['compressor.finders.CompressorFinder']
 CORS_ORIGIN_ALLOW_ALL = True
 # Your stuff...
 # ------------------------------------------------------------------------------
+
+GRAPHENE = {
+    'SCHEMA': 'genomics_geek.graphql.schema.schema' # Where your Graphene schema lives
+}
