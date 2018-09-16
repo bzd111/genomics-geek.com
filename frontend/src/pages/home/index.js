@@ -20,7 +20,7 @@ export const Home = ({ history }) => (
         icon="dna"
         size="massive"
         content="Learn More"
-        onClick={() => history.push('/about/')}
+        onClick={() => history.push('/app/about/')}
       />
     </Container>
   </React.Fragment>
