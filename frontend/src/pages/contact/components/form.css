@@ -1,0 +1,19 @@
+.ui.form.Contact-form input[type=text] {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+}
+
+.ui.form.Contact-form textarea:focus, .ui.form.Contact-form input:focus {
+  border-color: #A9D5DE;
+}
+
+.Contact-form .ui.button {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+}
+
+.ui.form.Contact-form textarea {
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+}

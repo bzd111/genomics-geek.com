@@ -6,7 +6,7 @@ import cookie from 'react-cookies'
 
 // docs: https://www.apollographql.com/docs/link/links/http.html
 export const httpLink = createHttpLink({
-  uri: '/graphql',
+  uri: '/graphql/',
   credentials: 'same-origin',
 })
 

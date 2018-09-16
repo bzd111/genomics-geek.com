@@ -76,6 +76,7 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     'genomics_geek.users.apps.UsersAppConfig',
     # Your stuff: custom apps go here
+    'genomics_geek.messages.apps.MessageConfig',
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
@@ -272,9 +273,12 @@ STATICFILES_FINDERS += ['compressor.finders.CompressorFinder']
 # ------------------------------------------------------------------------------
 # https://github.com/ottoyiu/django-cors-headers#cors_origin_allow_all
 CORS_ORIGIN_ALLOW_ALL = True
+
 # Your stuff...
 # ------------------------------------------------------------------------------
 
 GRAPHENE = {
-    'SCHEMA': 'genomics_geek.graphql.schema.schema' # Where your Graphene schema lives
+    'SCHEMA': 'genomics_geek.graphql.schema.schema',
 }
+
+ADMIN_EMAILS = env.list('ADMIN_EMAILS', default=['genomics.geek.04.22@gmail.com'])
