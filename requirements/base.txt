@@ -29,3 +29,4 @@ django-cors-headers==2.4.0  # https://github.com/ottoyiu/django-cors-headers
 
 # GraphQL
 graphene-django==2.2.0  # https://github.com/graphql-python/graphene-django
+django-filter==2.0.0  # https://django-filter.readthedocs.io/en/master/

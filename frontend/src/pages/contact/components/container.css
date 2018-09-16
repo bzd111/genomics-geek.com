@@ -1,0 +1,12 @@
+.Contact-header {
+  padding-top: 95px;
+}
+
+.Contact-header .ui.header {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+}
+
+.Contact-header .ui.huge.header {
+  font-size: 75px;
+}
