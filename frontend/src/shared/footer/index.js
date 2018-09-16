@@ -3,7 +3,7 @@ import React from 'react'
 import { Query } from 'react-apollo'
 import { get } from 'lodash'
 
-import Alert from 'shared/alerts'
+import Alert from 'shared/alert'
 import Footer from './components/footer'
 
 import { COMMIT, TAGS } from './queries/github'
