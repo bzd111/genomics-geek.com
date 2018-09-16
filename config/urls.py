@@ -12,7 +12,7 @@ router = DefaultRouter(trailing_slash=False)
 
 
 urlpatterns = [
-    re_path(r'^/(?P<route>.*)$', TemplateView.as_view(template_name="index.html"), name='app'),
+    re_path(r'^(?P<route>.*)$', TemplateView.as_view(template_name="index.html"), name='app'),
     path("api/", include(router.urls)),
     path(
         "about/",
