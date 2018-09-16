@@ -8,7 +8,7 @@ import { Button, Container, Header } from 'semantic-ui-react'
 
 
 export const Home = ({ history }) => (
-  <React.Fragment>
+  <div className="Home">
     <DocumentTitle title="Genomics Geek | Home" />
     <Container className="Home-header animated fadeInDown" textAlign="center">
       <Header size="huge" content="Genomics Geek" />
@@ -16,14 +16,14 @@ export const Home = ({ history }) => (
       <Button
         circular
         inverted
-        color="orange"
+        color="brown"
         icon="dna"
         size="massive"
         content="Learn More"
         onClick={() => history.push('/app/about/')}
       />
     </Container>
-  </React.Fragment>
+  </div>
 )
 
 
