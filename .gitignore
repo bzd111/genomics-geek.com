@@ -276,6 +276,7 @@ tags
 [Ss]cripts
 pyvenv.cfg
 pip-selfcheck.json
+.env
 
 
 ### Project template
@@ -283,5 +284,8 @@ pip-selfcheck.json
 genomics_geek/media/
 
 .pytest_cache/
+
+
 .env
 .envs/*
+!.envs/.local/
